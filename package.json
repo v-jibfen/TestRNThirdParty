@@ -1,5 +1,5 @@
 {
-  "name": "react-native-toast",
+  "name": "react-native-create-toast",
   "version": "1.0.0",
   "description": "React Native Toast component",
   "main": "index.js",

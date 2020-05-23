@@ -1,0 +1,26 @@
+{
+  "name": "react-native-toast",
+  "version": "0.5.7",
+  "description": "React Native Toast component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:v-jibfen/TestRNThirdParty.git"
+  },
+  "author": "vfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v-jibfen/TestRNThirdParty/issues"
+  },
+   "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "toast",
+    "react-native-toast"
+  ],
+  "homepage": "https://https://github.com/v-jibfen/TestRNThirdParty"
+}

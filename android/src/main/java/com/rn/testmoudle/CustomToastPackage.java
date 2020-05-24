@@ -1,4 +1,4 @@
-package com.rn.testmoudle.toast;
+package com.rn.testmoudle;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

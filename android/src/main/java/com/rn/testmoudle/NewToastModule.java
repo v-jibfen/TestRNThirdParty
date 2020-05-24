@@ -1,4 +1,4 @@
-package com.rn.testmoudle.toast;
+package com.rn.testmoudle;
 
 import android.view.Gravity;
 import android.widget.Toast;

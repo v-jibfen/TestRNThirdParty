@@ -11,22 +11,29 @@ typedef NS_ENUM(NSUInteger, ToastPosition) {
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(showMessage:(NSString *)message duration:(float)duration position:(int)positionValue)
+RCT_EXPORT_METHOD(showWithGravity:(NSString *)message duration:(float)duration gravity:(int)gravity)
 {
   dispatch_async(dispatch_get_main_queue(), ^{
     NSString* position;
-    switch (positionValue) {
-      case 0:
+    switch (gravity) {
+      case 48:
         position = (NSString *)CSToastPositionTop;
         break;
-      case 1:
+      case 17:
         position = (NSString *)CSToastPositionCenter;
         break;
       default:
         position = (NSString *)CSToastPositionBottom;
         break;
     }
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view makeToast: message duration: duration position: position];
+      [[UIApplication sharedApplication].keyWindow.rootViewController.view makeToast: message duration: duration / 1000.0f position: position];
+  });
+}
+
+RCT_EXPORT_METHOD(show:(NSString *)message duration:(float)duration)
+{
+  dispatch_async(dispatch_get_main_queue(), ^{
+      [[UIApplication sharedApplication].keyWindow.rootViewController.view makeToast: message duration: duration position: 3.5f];
   });
 }
 

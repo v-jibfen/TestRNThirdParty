@@ -1,6 +1,6 @@
 {
   "name": "react-native-create-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Toast component",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,5 @@
     "toast",
     "react-native-toast"
   ],
-  "homepage": "https://https://github.com/v-jibfen/TestRNThirdParty",
-  "dependencies": {
-    "react-native-create-toast": "^1.0.0"
-  }
+  "homepage": "https://https://github.com/v-jibfen/TestRNThirdParty"
 }

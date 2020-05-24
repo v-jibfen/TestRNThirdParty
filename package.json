@@ -1,6 +1,6 @@
 {
   "name": "react-native-create-toast",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native Toast component",
   "main": "index.js",
   "scripts": {

@@ -6,11 +6,10 @@ Pod::Spec.new do |s|
   s.description  = "native library link test"
   s.homepage     = "https://github.com/v-jibfen/TestRNThirdParty"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author             = { "author" => "1213980685@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNTestRnThirdParty.git", :tag => "master" }
-  s.source_files  = "RNTestRnThirdParty/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/v-jibfen/RNTestRnThirdParty.git", :tag => "master" }
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 

@@ -5,14 +5,6 @@ var Toast = NativeModules.ToastManager;
 
 const CreateAndroid = {
 
-  // Toast duration constants
-  SHORT: (Toast.SHORT: number),
-  LONG: (Toast.LONG: number),
-  // Toast gravity constants
-  TOP: (Toast.TOP: number),
-  BOTTOM: (Toast.BOTTOM: number),
-  CENTER: (Toast.CENTER: number),
-
   show: function(message: string, duration: number): void {
     Toast.show(message, duration);
   },

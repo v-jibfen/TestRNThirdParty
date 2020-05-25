@@ -3,10 +3,8 @@ Pod::Spec.new do |s|
   s.name         = "RNTestRnThirdParty"
   s.version      = "1.0.0"
   s.summary      = "RNTestRnThirdParty"
-  s.description  = <<-DESC
-                  RNTestRnThirdParty
-                   DESC
-  s.homepage     = ""
+  s.description  = "native library link test"
+  s.homepage     = "https://github.com/v-jibfen/TestRNThirdParty"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }

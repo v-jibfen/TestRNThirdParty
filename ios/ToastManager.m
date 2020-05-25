@@ -33,7 +33,7 @@ RCT_EXPORT_METHOD(showWithGravity:(NSString *)message duration:(float)duration g
 RCT_EXPORT_METHOD(show:(NSString *)message duration:(float)duration)
 {
   dispatch_async(dispatch_get_main_queue(), ^{
-      [[UIApplication sharedApplication].keyWindow.rootViewController.view makeToast: message duration: duration position: CSToastPositionCenter];
+      [[UIApplication sharedApplication].keyWindow.rootViewController.view makeToast: message duration: duration / 1000.0f position: CSToastPositionCenter];
   });
 }
 
